@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    min-height: 500px;
+    
+}
+
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*atentos a cambiar*/
+
+        width: 600px;
+        height: 600px;
+      
+    }
+
+    .carousel .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        
+    }
+    
